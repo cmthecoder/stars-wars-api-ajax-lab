@@ -10,7 +10,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route 
-          path='/starships'
+          path='/'
           element={<StarshipList />}
         />
           <Route 

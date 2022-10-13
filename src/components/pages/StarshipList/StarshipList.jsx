@@ -11,7 +11,7 @@ const StarshipList = () => {
     const fetchStarshipList = async () => {
       const starshipData = await getAllStarships()
       setStarships(starshipData.results)
-      // console.log(starshipData)
+      console.log(starshipData.results)
     }
     fetchStarshipList()
   }, [])
@@ -23,7 +23,7 @@ const StarshipList = () => {
         {starships.map(starship => 
             <Link
               key={starship.name}
-              to='/starships'
+              to='/starship'
               state= {{ starship }}
             >
             {starship.name}
