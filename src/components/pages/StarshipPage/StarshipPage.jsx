@@ -22,15 +22,15 @@ const StarshipPage = () => {
         <div className = 'starship-details'>
           {getStarships.name?
           <>
-          <h2>Name: {starshipPage.name}</h2>
-          <h2>Model: {starshipPage.model}</h2>
-          <Link to='/'>
-          Return
-          </Link>
+            <h2>Name: {starshipPage.name}</h2>
+            <h2>Model: {starshipPage.model}</h2>
+            <Link to='/'>
+              Return
+            </Link>
           </>
           :
           <>
-          <p>Loading Starship details...</p>
+            <p>Loading Starship details...</p>
           </>
         }
         </div>
