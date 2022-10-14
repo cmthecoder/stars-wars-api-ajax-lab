@@ -11,3 +11,27 @@ button {
   font-size: 20px;
 }
 
+
+.Nav-Bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: white;
+  background-color: black;
+}
+
+.starship-details{
+  border: 1px solid #033D42;
+  background-color: #033D42;
+  position: relative;
+  color: white;
+  width: 400px;
+  margin: 150px;
+}
+
+a{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}

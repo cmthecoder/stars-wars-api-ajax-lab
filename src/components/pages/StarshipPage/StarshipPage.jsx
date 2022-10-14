@@ -19,7 +19,7 @@ const StarshipPage = () => {
 
   return (
     <>
-        <div>
+        <div className = 'starship-details'>
           {getStarships.name?
           <>
           <h2>Name: {starshipPage.name}</h2>
